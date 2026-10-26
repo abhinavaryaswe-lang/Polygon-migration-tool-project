@@ -1,0 +1,38 @@
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Django local database and generated files
+*.sqlite3
+*.sqlite3-journal
+/PolygonMigration/staticfiles/
+/PolygonMigration/media/
+
+# Application logs
+/PolygonMigration/logs/
+*.log
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
